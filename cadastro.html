@@ -1,0 +1,83 @@
+<html>
+<head>
+  <title>Cadastro - Confeitaria Four'ls</title>
+  <meta charset="UTF-8"/>
+</head>
+
+<body>
+<div>
+
+    <form name="0.1_cadastro" method="post" action="cadastroCTRL.php">
+      <table width="625" border="0">
+        <tr>
+          <td width="69">Nome:</td>
+          <td width="546"><input name="nome" required="required" type="text" size="70" maxlength="60">
+            </td>
+        </tr>
+        <tr>
+          <td width="69">CPF:</td>
+          <td width="546"><input name="CPF" required="required" type="text" size="70" maxlength="60">
+            </td>
+        </tr>
+        <tr>
+          <td>Email:</td>
+          <td><input name="email" required="required" type="text" size="70" maxlength="60">
+          </td>
+        </tr>
+        <tr>
+          <td>Sexo:</td>
+          <td><input name="sexo" required="required" type="radio" value="Masculino" checked>
+            Masculino 
+            <input name="sexo" required="required" type="radio" value="Feminino">
+            Feminino  </td>
+        </tr>
+        <tr>
+          <td>Telefone:</td>
+            <td><input name="telefone" required="required"type="text">
+              <span>Apenas números</span> </td></td>
+        </tr>
+        <tr>
+          <td>Endereço:</td>
+          <td><input name="endereco" required="required"type="text" size="70" maxlength="70">
+           </td>
+        </tr>
+        <tr>
+          <td>Cidade:</td>
+          <td><input name="cidade" required="required" type="text" maxlength="20">
+            </td>
+        </tr>
+        
+        <tr>
+          <td>Bairro:</td>
+          <td><input name="bairro" required="required" type="text" maxlength="20">
+            </td>
+        </tr>
+        <tr>
+          <td>Senha:</td>
+          <td><input name="senha" required="required" type="password" maxlength="12">
+             </td>
+        </tr>
+        <tr>
+          <td>Confirmar senha:</td>
+          <td><input name="confirmaSenha" required="required" type="password" maxlength="12">
+             </td>
+        </tr>
+        <tr>
+          <td colspan="2"><input name="news" required="required" type="checkbox" value="ATIVO" checked>
+    Desejo receber novidades e informações sobre o conteúdo deste site. </td>
+        </tr>
+        <tr>
+          <td colspan="2"><p>
+            <input name="cadastrar" required="required" type="submit" value="Concluir meu Cadastro"> 
+            <br>
+              <input name="limpar" required="required" type="reset" value="Limpar Campos preenchidos!">
+              <br>
+              </p>
+          <p>  </p></td>
+        </tr>
+      </table>
+    </form>
+    </div>
+    </body>
+    </html>
+    
